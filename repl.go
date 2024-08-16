@@ -11,7 +11,7 @@ func startRepl(cfg *config) {
 	scanner := bufio.NewScanner(os.Stdin)
 
 	for {
-		fmt.Print(" >")
+		fmt.Print("Pokedex > ")
 		scanner.Scan()
 
 		text := scanner.Text()
